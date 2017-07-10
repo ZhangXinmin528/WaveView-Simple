@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaveView">
+        <attr name="shape_type" format="integer">
+            <enum name="circle" value="0" />
+            <enum name="rectangle" value="1" />
+        </attr>
+        <attr name="front_color" format="color|reference" />
+        <attr name="behind_color" format="color|reference" />
+    </declare-styleable>
+</resources>

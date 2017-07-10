@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--wave color-->
+    <color name="waveColor_front">#3cffffff</color>
+    <color name="waveColor_behind">#28FFFFFF</color>
+</resources>
