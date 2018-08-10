@@ -58,52 +58,40 @@ public class WaveView extends View {
 
     /**
      * the default water anplitude
-     * 默认的水位振幅
      */
     private float mDefaultAmplitude;
     /**
      * the default water height
-     * 默认的水位
      */
     private float mDefaultWaterLevel;
     /**
      * the default complete wave length
-     * 默认的波长
      */
     private float mDefaultWaveLength;
-    /**
-     * 默认的频率
-     */
     private double mDefaultAngularFrequency;
 
     /**
      * the ratio of water level ampltitude
-     * 波浪偏离水面的垂直距离（振幅）对应的比率
      */
     private float mAmplitudeRatio = DEFAULT_AMPLITUDE_RATIO;
     /**
      * the ratio of an complete wave length in horizontal
-     * 完整波浪长度（波长）的比率
      */
     private float mWaveLengthRatio = DEFAULT_WAVE_LENGTH_RATIO;
     /**
      * the ratio of water height among the view height
-     * 波浪静止时距离水面的距离（水位）
      */
     private float mWaterLevelRatio = DEFAULT_WATER_LEVEL_RATIO;
     /**
      * horizontal offset ratio relative to the initial position
-     * 波浪相对于起始位置的偏移量
      */
     private float mWaveShiftRatio = DEFAULT_WAVE_SHIFT_RATIO;
     /**
      * the color of behind wave
-     * 后浪颜色
      */
     private int mBehindWaveColor;
     /**
      * the color of front wave
-     * 前浪颜色
      */
     private int mFrontWaveColor;
 
