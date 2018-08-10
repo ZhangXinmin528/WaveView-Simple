@@ -15,17 +15,19 @@ Usage
 ------
 
 ###Step1
------
+
 Add dependencies in build.gradle.
 ```groovy
+
 	dependencies {
-    	implementation 'com.example.wavelibrary:wavelibrary:1.0.0'
-    }
+    		implementation 'com.example.wavelibrary:wavelibrary:1.0.0'
+    	}
 ```
 ###Step2
------
+
 ####布局中添加
 ```java
+
 	<com.example.wavelibrary.WaveView
         android:id="@+id/waveview"
         android:layout_width="match_parent"
@@ -36,16 +38,18 @@ Add dependencies in build.gradle.
         app:shape_type="circle" />
 ```
 ###Step3
------
+
 ####页面中添加并控制动画
 	1.初始化控件并添加动画辅助工具：
 ```java
+
 	private WaveView mWaveView;
 	mWaveView = (WaveView) findViewById(R.id.waveview);
-        mWaveView.setSimpleAnimatorToView();
+    mWaveView.setSimpleAnimatorToView();
 ```
 	2.控制动画的播放和暂停：
 ```java
+
 	@Override
     protected void onResume() {
         super.onResume();
