@@ -13,18 +13,19 @@ The library provide the effect of water ripple and is easy to use.
 
 Usage
 ------
-The library provide the effect of water ripple and is easy to use.
 
 ###Step1
 -----
-####build.gradle添加
+Add dependencies in build.gradle.
+```groovy
 	dependencies {
     	implementation 'com.example.wavelibrary:wavelibrary:1.0.0'
     }
-
+```
 ###Step2
 -----
 ####布局中添加
+```java
 	<com.example.wavelibrary.WaveView
         android:id="@+id/waveview"
         android:layout_width="match_parent"
@@ -33,16 +34,18 @@ The library provide the effect of water ripple and is easy to use.
         app:behind_color="@color/colorWave_behind"
         app:front_color="@color/colorWave_front"
         app:shape_type="circle" />
-
+```
 ###Step3
 -----
 ####页面中添加并控制动画
 	1.初始化控件并添加动画辅助工具：
+```java
 	private WaveView mWaveView;
 	mWaveView = (WaveView) findViewById(R.id.waveview);
         mWaveView.setSimpleAnimatorToView();
-
+```
 	2.控制动画的播放和暂停：
+```java
 	@Override
     protected void onResume() {
         super.onResume();
@@ -54,7 +57,7 @@ The library provide the effect of water ripple and is easy to use.
         super.onPause();
         mWaveView.getWaveAnimatorHelper().endAnimators();
     }
-
+```
 Communication
 ------
 Email:zhangxinmin528@sina.com
