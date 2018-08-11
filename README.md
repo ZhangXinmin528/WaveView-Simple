@@ -2,6 +2,7 @@
 ------
 [![License](https://img.shields.io/badge/License%20-Apache%202-337ab7.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=15)
+[ ![Download](https://api.bintray.com/packages/zhangxinmin528/wavelibrary/wavelibrary/images/download.svg) ](https://bintray.com/zhangxinmin528/wavelibrary/wavelibrary/_latestVersion)
 
 <p align="center">
   <img alt="logo" src="https://github.com/ZhangXinmin528/WaveView-Simple/blob/master/example/src/main/assets/logo.png"/>
@@ -17,6 +18,8 @@ Usage
 ###Step1
 
 Add dependencies in build.gradle.
+
+
 ```groovy
 
 	dependencies {
