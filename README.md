@@ -66,7 +66,10 @@ Add dependencies in build.gradle.
     }
 ```
 
-######说明：在使用的时候可以灵活继承WaveAnimatorHelper接口进行动画的控制；
+######说明：
+######在使用的时候可以灵活继承WaveAnimatorHelper接口进行动画的控制；
+
+
 Communication
 ------
 Email:zhangxinmin528@sina.com
