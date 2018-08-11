@@ -4,7 +4,7 @@
 [![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=15)
 
 <p align="center">
-  <img alt="logo" src="https://github.com/ZhangXinmin528/android_painter/blob/master/app/src/main/assets/logo.png"/>
+  <img alt="logo" src="https://github.com/ZhangXinmin528/WaveView-Simple/blob/master/example/src/main/assets/logo.png"/>
 </p>
 
 Introduction
@@ -25,7 +25,7 @@ Add dependencies in build.gradle.
 ```
 ###Step2
 
-####布局中添加
+######布局中添加
 ```java
 
 	<com.example.wavelibrary.WaveView
@@ -39,7 +39,7 @@ Add dependencies in build.gradle.
 ```
 ###Step3
 
-####页面中添加并控制动画
+######页面中添加并控制动画
 	1.初始化控件并添加动画辅助工具：
 ```java
 
@@ -62,6 +62,8 @@ Add dependencies in build.gradle.
         mWaveView.getWaveAnimatorHelper().endAnimators();
     }
 ```
+
+######说明：在使用的时候可以灵活继承WaveAnimatorHelper接口进行动画的控制；
 Communication
 ------
 Email:zhangxinmin528@sina.com
