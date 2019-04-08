@@ -23,7 +23,7 @@ Add dependencies in build.gradle.
 ```groovy
 
 	dependencies {
-    		implementation 'com.example.wavelibrary:wavelibrary:1.0.0'
+    		implementation 'com.zxm:wavelibrary:1.0.0'
     	}
 ```
 ###Step2
