@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WaveView.iml" filepath="$PROJECT_DIR$/WaveView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/example/example.iml" filepath="$PROJECT_DIR$/example/example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/wavelibrary/wavelibrary.iml" filepath="$PROJECT_DIR$/wavelibrary/wavelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WaveView-Simple.iml" filepath="$PROJECT_DIR$/.idea/modules/WaveView-Simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example/WaveView-Simple.example.iml" filepath="$PROJECT_DIR$/.idea/modules/example/WaveView-Simple.example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example/WaveView-Simple.example.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/example/WaveView-Simple.example.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example/WaveView-Simple.example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/example/WaveView-Simple.example.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example/WaveView-Simple.example.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/example/WaveView-Simple.example.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wavelibrary/WaveView-Simple.wavelibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/wavelibrary/WaveView-Simple.wavelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wavelibrary/WaveView-Simple.wavelibrary.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/wavelibrary/WaveView-Simple.wavelibrary.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wavelibrary/WaveView-Simple.wavelibrary.main.iml" filepath="$PROJECT_DIR$/.idea/modules/wavelibrary/WaveView-Simple.wavelibrary.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wavelibrary/WaveView-Simple.wavelibrary.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/wavelibrary/WaveView-Simple.wavelibrary.unitTest.iml" />
     </modules>
   </component>
 </project>

@@ -56,7 +56,7 @@ public class SimpleWaveAnimatorImp implements WaveAnimatorHelper {
         ObjectAnimator waveShiftAnim = ObjectAnimator.ofFloat(
                 mWaveView, "waveShiftRatio", 0f, 1f);
         waveShiftAnim.setRepeatCount(ValueAnimator.INFINITE);
-        waveShiftAnim.setDuration(1000);
+        waveShiftAnim.setDuration(800);
         waveShiftAnim.setInterpolator(new LinearInterpolator());
 
         // vertical animation.
@@ -101,7 +101,7 @@ public class SimpleWaveAnimatorImp implements WaveAnimatorHelper {
         // amplitude animation.
         // wave grows big then grows small, repeatedly
         ObjectAnimator amplitudeAnim = ObjectAnimator.ofFloat(
-                mWaveView, "amplitudeRatio", 0.02f, 0.05f);
+                mWaveView, "amplitudeRatio", 0.01f, 0.03f);
         amplitudeAnim.setRepeatCount(ValueAnimator.INFINITE);
         amplitudeAnim.setRepeatMode(ValueAnimator.REVERSE);
         amplitudeAnim.setDuration(5000);

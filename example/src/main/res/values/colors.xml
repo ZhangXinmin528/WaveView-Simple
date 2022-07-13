@@ -6,6 +6,6 @@
 
     <color name="colorBg">#303030</color>
 
-    <color name="colorWave_front">#6e6facfc</color>
-    <color name="colorWave_behind">#b36c93fd</color>
+    <color name="colorWave_front">#5C7CD7FE</color>
+    <color name="colorWave_behind">#AB71BFFB</color>
 </resources>

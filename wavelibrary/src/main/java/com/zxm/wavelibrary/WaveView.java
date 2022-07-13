@@ -9,10 +9,11 @@ import android.graphics.Canvas;
 import android.graphics.Matrix;
 import android.graphics.Paint;
 import android.graphics.Shader;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
+
+import androidx.annotation.Nullable;
 
 import com.zxm.wavelibrary.AnimatorHelper.SimpleWaveAnimatorImp;
 import com.zxm.wavelibrary.AnimatorHelper.WaveAnimatorHelper;
@@ -40,7 +41,7 @@ public class WaveView extends View {
     public static final int SHAPE_RECTANGLE = 1;//the border is rectangle
 
     //params of water
-    private static final float DEFAULT_AMPLITUDE_RATIO = 0.05f;//默认水位振幅比率
+    private static final float DEFAULT_AMPLITUDE_RATIO = 0.45f;//默认水位振幅比率
     private static final float DEFAULT_WATER_LEVEL_RATIO = 0.5f;//默认水位比率
     private static final float DEFAULT_WAVE_LENGTH_RATIO = 1.0f;//默认波长比率
     private static final float DEFAULT_WAVE_SHIFT_RATIO = 0.0f;//默认波浪偏移比率

@@ -14,5 +14,4 @@
         app:front_color="@color/colorWave_front"
         app:shape_type="circle" />
 
-
 </RelativeLayout>
